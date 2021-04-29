@@ -5,7 +5,5 @@ exports = async function getLocationById(id) {
   const results = await locations.findOne({ _id: BSON.ObjectId(id) });
   const stringified = JSON.stringify(results);
 
-  return {
-    data: JSON.parse(stringified),
-  };
+  return JSON.parse(stringified);
 };
