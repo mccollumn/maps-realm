@@ -1,0 +1,24 @@
+{
+  "name": "maps-realm",
+  "version": "1.0.0",
+  "description": "```",
+  "main": "index.js",
+  "scripts": {
+    "login": "realm-cli login --api-key $REALM_API_KEY --private-api-key $REALM_PRIVATE_API_KEY",
+    "pull": "realm-cli pull --remote maps-rqbfj --local .",
+    "push": "realm-cli import"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mccollumn/maps-realm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mccollumn/maps-realm/issues"
+  },
+  "homepage": "https://github.com/mccollumn/maps-realm#readme",
+  "dependencies": {
+    "realm-cli": "^1.0.2"
+  }
+}
