@@ -6,7 +6,7 @@
   "scripts": {
     "login": "realm-cli login --api-key $REALM_API_KEY --private-api-key $REALM_PRIVATE_API_KEY",
     "pull": "realm-cli pull --remote maps-rqbfj --local .",
-    "push": "realm-cli import"
+    "push": "sh realm-cli import"
   },
   "repository": {
     "type": "git",
