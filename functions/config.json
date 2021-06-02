@@ -14,5 +14,13 @@
     "run_as_system": true,
     "run_as_user_id": "",
     "run_as_user_id_script_source": ""
+  },
+  {
+    "name": "addLocation",
+    "private": false,
+    "disable_arg_logs": true,
+    "run_as_system": true,
+    "run_as_user_id": "",
+    "run_as_user_id_script_source": ""
   }
 ]
